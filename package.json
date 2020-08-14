@@ -10,7 +10,12 @@
   "author": "Adam Older <adamolder10@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^4.2.1",
+    "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0"
   }
 }

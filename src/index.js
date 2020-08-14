@@ -1,5 +1,6 @@
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/js/materialize.min';
+import initLoad from './pageload.js';
 
 
-// var element = document.createElement('div');
-// element.innerHTML = 'this is a test2';
-// document.body.appendChild(element);
+initLoad();
