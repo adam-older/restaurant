@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link href="../src/styles.css" rel="stylesheet"> -->
     <title>Restaurant</title>
 </head>
 <body>
-    <div class="red">Restaurant</div>
+    <div class="container">
+        <div class="center-align"><h3>Restaurant Title</h3></div>
+        <div class="row center-align">
+        <div class="col s12">
+          <ul class="tabs center blue-text">
+            <li class="tab col s4"><a class="active" href="#test1">About</a></li>
+            <li class="tab col s4"><a href="#test2">Menu</a></li>
+            <li class="tab col s4"><a href="#test3">Contact</a></li>
+          </ul>
+        </div>
+        <div id="test1" class="col s12 flow-text">
+            <div class="content-section">
+                <p class="flow-text content-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid aut debitis quidem, numquam sunt vero beatae nulla! Quidem, at saepe, nihil sit sapiente pariatur architecto rem nemo consequuntur ad ab.</p>
+            </div>   
+        </div>
+        <div id="test2" class="col s12">
+            <div class="content-section">
+                <p>This is menu</p>
+            </div>
+        </div>
+        <div id="test3" class="col s12">
+            <div class="content-section">
+                <p>This is contact</p>
+            </div>
+        </div>
+    </div>
     <div id="content"></div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

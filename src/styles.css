@@ -1,0 +1,32 @@
+.tabs .tab a {
+    color: green;
+}
+
+.tabs .tab a.active {
+    color: green;
+}
+.tabs .indicator {
+    background-color:green;
+}
+
+.tabs .tab a:hover, .tabs .tab a:active {
+    color: green;
+    background-color: rgba(0,255,0,0.2);
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    color: green;
+    background-color: rgba(0,255,0,0.2);
+}
+
+.content-section {
+    margin-top: 20px;
+    border: green solid;
+    border-radius: 25px;
+    min-height: 600px;
+    
+}
+
+.content-text {
+    padding: 0 25px 25px 0; /* trbl */
+}
